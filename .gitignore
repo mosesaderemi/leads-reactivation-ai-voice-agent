@@ -1,0 +1,25 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Logs
+*.log
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+*.db
+*.sqlite
+*.sqlite3
